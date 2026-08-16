@@ -1,0 +1,10 @@
+{
+  "name": "game-assets-automation",
+  "version": "0.1.0",
+  "description": "Guarded Grok Imagine browser automation for game-asset production.",
+  "author": {
+    "name": "Vanyangyang"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Vanyangyang/game-assets-automation"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "vanyangyang",
+  "description": "Vanyangyang's developer tools, including guarded Grok Imagine browser automation for game-asset production.",
+  "owner": {
+    "name": "Vanyangyang"
+  },
+  "plugins": [
+    {
+      "name": "game-assets-automation",
+      "source": ".",
+      "description": "Guarded Grok Imagine browser automation with a dedicated Chrome profile, bounded workflows, and explicit quota-risk confirmation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Vanyangyang"
+      }
+    }
+  ]
+}

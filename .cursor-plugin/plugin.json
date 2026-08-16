@@ -1,0 +1,18 @@
+{
+  "name": "game-assets-automation",
+  "version": "0.1.0",
+  "description": "Guarded Grok Imagine browser automation for Cursor, with a dedicated Chrome profile on 127.0.0.1:9334.",
+  "author": {
+    "name": "Vanyangyang"
+  },
+  "homepage": "https://github.com/Vanyangyang/game-assets-automation",
+  "repository": "https://github.com/Vanyangyang/game-assets-automation",
+  "license": "MIT",
+  "keywords": [
+    "grok",
+    "imagine",
+    "cdp",
+    "game-assets",
+    "browser-automation"
+  ]
+}

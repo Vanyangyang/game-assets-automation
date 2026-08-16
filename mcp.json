@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "grok-imagine-browser": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.7.0",
+        "--browser-url=http://127.0.0.1:9334",
+        "--slim",
+        "--no-usage-statistics",
+        "--no-performance-crux"
+      ],
+      "env": {
+        "CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS": "1",
+        "GAA_GROK_AGENT": "cursor"
+      }
+    }
+  }
+}

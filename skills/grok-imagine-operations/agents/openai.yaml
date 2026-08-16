@@ -1,0 +1,13 @@
+interface:
+  display_name: "Grok Imagine Operations"
+  short_description: "Operate the dedicated Grok Imagine browser safely."
+  default_prompt: "Use $grok-imagine-operations to inspect the dedicated Grok Imagine browser without submitting generation."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "grok-imagine-browser"
+      description: "Slim Chrome DevTools MCP connected to the dedicated Grok profile."
+
+policy:
+  allow_implicit_invocation: true

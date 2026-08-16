@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "name": "readonly-smoke",
+  "risk": "READ_ONLY",
+  "timeoutMs": 45000,
+  "actions": [
+    {
+      "type": "wait",
+      "selector": "body",
+      "state": "visible",
+      "timeoutMs": 30000
+    },
+    {
+      "type": "snapshot",
+      "maxText": 2000
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "game-assets-automation",
+  "version": "0.1.0",
+  "description": "Guarded Grok Imagine browser automation for game-asset production. Cursor uses a dedicated CDP profile on port 9334 so it does not collide with Codex on 9333.",
+  "author": {
+    "name": "Vanyangyang",
+    "url": "https://github.com/Vanyangyang"
+  },
+  "homepage": "https://github.com/Vanyangyang/game-assets-automation",
+  "repository": "https://github.com/Vanyangyang/game-assets-automation",
+  "license": "MIT",
+  "keywords": [
+    "grok",
+    "imagine",
+    "cdp",
+    "game-assets",
+    "cursor",
+    "browser-automation"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "game-assets-automation",
+  "version": "0.1.0+codex.20260816180000",
+  "description": "Guarded Grok Imagine browser automation for game-asset production.",
+  "author": {
+    "name": "Vanyangyang"
+  },
+  "repository": "https://github.com/Vanyangyang/game-assets-automation",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Game Assets Automation",
+    "shortDescription": "Guarded Grok Imagine browser automation for game assets.",
+    "longDescription": "Connect a dedicated local Chrome profile to Grok Imagine, inspect visible page state, and run bounded workflows with explicit quota-risk confirmation. Codex uses port 9333 / ChromeProfile so it stays isolated from the Cursor profile on 9334.",
+    "developerName": "Vanyangyang",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Check the dedicated Grok Imagine browser and MCP status without submitting generation.",
+      "Capture a read-only Grok Imagine page snapshot for review.",
+      "Run a confirmed Grok workflow and record its local provenance manifest."
+    ],
+    "websiteURL": "https://github.com/Vanyangyang/game-assets-automation"
+  }
+}

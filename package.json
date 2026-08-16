@@ -1,0 +1,36 @@
+{
+  "name": "game-assets-automation",
+  "version": "0.1.0",
+  "description": "Guarded Grok Imagine browser automation for game-asset production.",
+  "type": "module",
+  "private": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test scripts/tests/*.test.mjs",
+    "status": "node scripts/grok-cdp-worker.mjs status",
+    "start:cursor": "powershell.exe -NoProfile -File scripts/Start-GrokChrome.ps1 -Agent cursor",
+    "start:codex": "powershell.exe -NoProfile -File scripts/Start-GrokChrome.ps1 -Agent codex",
+    "stop:cursor": "powershell.exe -NoProfile -File scripts/Stop-GrokChrome.ps1 -Agent cursor",
+    "stop:codex": "powershell.exe -NoProfile -File scripts/Stop-GrokChrome.ps1 -Agent codex"
+  },
+  "keywords": [
+    "grok",
+    "imagine",
+    "cdp",
+    "game-assets",
+    "cursor",
+    "mcp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanyangyang/game-assets-automation.git"
+  },
+  "homepage": "https://github.com/Vanyangyang/game-assets-automation#readme",
+  "bugs": {
+    "url": "https://github.com/Vanyangyang/game-assets-automation/issues"
+  },
+  "author": "Vanyangyang",
+  "license": "MIT"
+}
