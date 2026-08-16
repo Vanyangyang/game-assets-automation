@@ -1,5 +1,6 @@
 {
   "name": "game-assets-automation",
+  "displayName": "Game Assets Automation",
   "version": "0.1.0",
   "description": "Guarded Grok Imagine browser automation for Cursor, with a dedicated Chrome profile on 127.0.0.1:9334.",
   "author": {

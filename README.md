@@ -17,12 +17,12 @@ State lives outside the repo. If `%LOCALAPPDATA%\VESPERIX\GrokCdp` already exist
 
 ## Cursor
 
-Local development install:
+Cursor 3.16 rejects a junction whose target is outside `~/.cursor/plugins/local`. Keep the plugin as a real directory there:
 
 ```powershell
-New-Item -ItemType Junction `
-  -Path "$env:USERPROFILE\.cursor\plugins\local\game-assets-automation" `
-  -Target "C:\Users\Administrator\plugins\game-assets-automation"
+# clone or move the repo into the local plugin root
+git clone https://github.com/Vanyangyang/game-assets-automation.git `
+  "$env:USERPROFILE\.cursor\plugins\local\game-assets-automation"
 ```
 
 Then reload Cursor (`Developer: Reload Window`). The plugin contributes:

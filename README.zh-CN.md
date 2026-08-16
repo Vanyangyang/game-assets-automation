@@ -17,12 +17,11 @@
 
 ## Cursor
 
-本地开发安装：
+Cursor 3.16 会拒绝指向 `~\.cursor\plugins\local` 外面的 junction。插件必须作为真实目录放在这里：
 
 ```powershell
-New-Item -ItemType Junction `
-  -Path "$env:USERPROFILE\.cursor\plugins\local\game-assets-automation" `
-  -Target "C:\Users\Administrator\plugins\game-assets-automation"
+git clone https://github.com/Vanyangyang/game-assets-automation.git `
+  "$env:USERPROFILE\.cursor\plugins\local\game-assets-automation"
 ```
 
 然后重载 Cursor（`Developer: Reload Window`）。插件会提供：
